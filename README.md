@@ -1,15 +1,15 @@
 # nginx
+Ghi chú học Nginx năm 2024.
 
-> nginx from zero to hero
+# Nginx UI
+[Nginx UI](https://nginxui.com/) : Open source tools to manage nginx
 
 ### các lệnh cần thiết để quản lý
 
-- kiểm tra cú pháp file cấu hình
-
+- kiểm tra cú pháp file cấu hình có bị lỗi hay không
 ```sh
 $ sudo nginx -t
 ```
-
 - reload lại file cấu hình
 
 ```sh
@@ -24,10 +24,10 @@ $ sudo nginx -s reopen
 
 ### danh sách file và thư mục quan trọng
 
-- /etc/nginx/nginx.conf: file config chính
-- /etc/nginx/conf.d: thư mục chưa các file config của riêng bạn
-- /etc/nginx/sites-available: thư mục chưa các file config VirtualHost, cho phép chúng ta cấu hình riêng biệt cho từng website
-- /etc/nginx/sites-available/default: file config Virtual Hosts mặc định
+- `/etc/nginx/nginx.conf`: file config chính
+- `/etc/nginx/conf.d`: thư mục chưa các file config của riêng bạn
+- `/etc/nginx/sites-available`: thư mục chưa các file config VirtualHost, cho phép chúng ta cấu hình riêng biệt cho từng website
+- `/etc/nginx/sites-available/default`: file config Virtual Hosts mặc định
 
 ### documents
 
